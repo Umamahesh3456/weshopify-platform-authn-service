@@ -3,7 +3,7 @@ pipeline{
         label "worker-01-jenkins"
     }
     tools{
-        maven 'MAVEN_HOME'
+        maven 'New_maven'
     }
     stages{
         stage("Pull the Code From SCM"){
