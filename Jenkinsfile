@@ -17,7 +17,7 @@ pipeline{
         stage("Build the Source Code"){
             steps{
                 echo "========Code Building is Starting========"
-                sh 'mvn clean package -DskipTests=true'
+                sh 'mvn clean package -U -DskipTests=true'
                 echo "========Artifact Generated========"
             }
         }
