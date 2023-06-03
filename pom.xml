@@ -61,7 +61,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.durgasoft</groupId>
-			<artifactId>weshopify-authn-service</artifactId>
+			<artifactId>weshopify-platform-commons</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
